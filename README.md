@@ -1,4 +1,4 @@
-###Tienda_YardSale
+# Tienda_YardSale
 
 Pantallas de una tienda online, utilizando:
 
