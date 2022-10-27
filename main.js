@@ -89,6 +89,31 @@ productList.push({
     price: 180,
     Image: 'https://images.pexels.com/photos/1034425/pexels-photo-1034425.jpeg?auto=compress&cs=tinysrgb&w=600',
 });
+productList.push({
+    name: 'Notebook 1',
+    price: 1000,
+    Image: 'https://images.pexels.com/photos/1006293/pexels-photo-1006293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+});
+productList.push({
+    name: 'Notebook 2',
+    price: 900,
+    Image: 'https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+});
+productList.push({
+    name: 'Notebook 3',
+    price: 1500,
+    Image: 'https://images.pexels.com/photos/42408/pexels-photo-42408.jpeg?auto=compress&cs=tinysrgb&w=600',
+});
+productList.push({
+    name: 'Notebook 4',
+    price: 850,
+    Image: 'https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg?auto=compress&cs=tinysrgb&w=600',
+});
+productList.push({
+    name: 'Notebook 5',
+    price: 980,
+    Image: 'https://images.pexels.com/photos/1477284/pexels-photo-1477284.jpeg?auto=compress&cs=tinysrgb&w=600',
+});
 
 function renderProcuts (arr) {
     for (product of arr) {
