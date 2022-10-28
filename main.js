@@ -114,6 +114,31 @@ productList.push({
     price: 980,
     Image: 'https://images.pexels.com/photos/1477284/pexels-photo-1477284.jpeg?auto=compress&cs=tinysrgb&w=600',
 });
+productList.push({
+    name: 'Electronic 1',
+    price: 100,
+    Image: 'https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=600',
+});
+productList.push({
+    name: 'Electronic 2',
+    price: 2500,
+    Image: 'https://images.pexels.com/photos/1108512/pexels-photo-1108512.jpeg?auto=compress&cs=tinysrgb&w=600',
+});
+productList.push({
+    name: 'Electronic 3',
+    price: 500,
+    Image: 'https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg?auto=compress&cs=tinysrgb&w=600',
+});
+productList.push({
+    name: 'Electronic 4',
+    price: 850,
+    Image: 'https://images.pexels.com/photos/844874/pexels-photo-844874.jpeg?auto=compress&cs=tinysrgb&w=600',
+});
+productList.push({
+    name: 'Electronic 5',
+    price: 980,
+    Image: 'https://images.pexels.com/photos/116905/pexels-photo-116905.jpeg?auto=compress&cs=tinysrgb&w=600',
+});
 
 function renderProcuts (arr) {
     for (product of arr) {

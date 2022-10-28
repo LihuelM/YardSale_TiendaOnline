@@ -148,7 +148,7 @@ nav {
     border-bottom: 1px solid var(--very-ligth-pink);
 }
 .mobile-menu ul li {
-     margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 .email {
     font-size: var(--sm);
@@ -229,15 +229,15 @@ aside {
     font-weight: bold;
 } 
 .primary-button {
-   background-color: var(--hospital-green);
-   border-radius: 8px;
-   border: none;
-   color: var(--white);
-   width: 100%;
-   cursor: pointer;
-   font-size: var(--md);
-   font-weight: bold;
-   height: 50px;
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
 }
 
 /* ProductDetail */
@@ -283,15 +283,15 @@ aside {
     margin-bottom: 36px;
 }
 .primary-button {
-   background-color: var(--hospital-green);
-   border-radius: 8px;
-   border: none;
-   color: var(--white);
-   width: 100%;
-   cursor: pointer;
-   font-size: var(--md);
-   font-weight: bold;
-   height: 50px;
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
 }
 .add-to-cart-button {
     display: flex;
@@ -302,7 +302,8 @@ aside {
 /* Product List */
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 240px);
+    grid-template-columns: repeat(5, 240px);
+    grid-template-rows: repeat(3, 300px);
     gap: 26px;
     place-content: center;
     margin-top: 20px;
